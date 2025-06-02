@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #007cf0, #00dfd8);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+}
+
+.card {
+  background-color: white;
+  padding: 25px;
+  border-radius: 20px;
+  width: 280px;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 20px;
+  color: #555;
+}
+
+.card h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+.card hr {
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.card li {
+  padding: 8px 0;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  width: 20px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.enabled {
+  color: #000;
+}
+
+.disabled {
+  color: #bbb;
+  text-decoration: line-through;
+}
+
+.btn {
+  background: #007cf0;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: bold;
+}
